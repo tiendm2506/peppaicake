@@ -1,0 +1,40 @@
+#header{
+  .info-social{
+    display: flex;
+    justify-content: space-between;
+    .info{
+      ul{
+        li{
+
+        }
+      }
+    }
+    .social{
+      ul{
+        li{
+          a{}
+        }
+      }
+    }
+  }
+  .logo-menu{
+    display: flex;
+    justify-content: space-between;
+    .logo{
+      a{
+        img{}
+      }
+    }
+    .menu{
+      ul{
+        li{
+          a{
+
+          }
+        }
+      }
+      .search{}
+      .cart{}
+    }
+  }
+}
