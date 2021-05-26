@@ -1,0 +1,14 @@
+<svg id="Brand" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132" height="50" viewBox="0 0 132 50">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 40px;
+        fill: #fff;
+        font-family: PlayfairDisplay;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <text id="Bakery" class="cls-1" x="-1.271" y="43.473">Bakery</text>
+  <image x="72" width="22" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAYAAACJfM0wAAABvUlEQVQ4jZ3VS6hNcRTH8c+53hKixEzySJJEThGldBUZGJyZicfciAkj7tjA9DJidG9JCSWPIiKPwsBrJsoAKSNRR+ve/3H2OWu7Or616+zfWvu31/9/1n/tRrvdVuXR+El/oYmZuFcfptka+fN7eorWMx+3S/4KfKzNqjCUlHrGMbdUfLk24z+Mj2C4cr8Zx1PWgMYzcDqpnMK8pA5gvAtLk8os7EvqAMbbk9JlR1IGMF6SlC4LkzKA8fOkdHmTlAqNh2MnzmARvuEV3uJOSVmD1+mpSdZWYjvL/TrMwado+P1Y3vfQS5zFOVzEgZp4mB4urbe6L/4utuJuqoX1GMV5PE1RHuNmeXG/afAgKn6R5C6Hyj5fxd6iPikdsTJld3k2VI7rVGzADdwqptf/YRpcCuP3uJJCvWzFhbL0VSnayxg+dNrtWAr3Mlw6JK7dKdrLhFfHOHpyEz6ntEkWYCO2THEwvpSc2IGJ+drAtNjw8gdFey3rGzJRQPRqzIh+vuM+jsYZ6Az7ui9I7OFBzMZPbCtzOOZxFPC1pEYhoUfHXGu2Rn5VfZJx30tiNZ2EPfhRuiNY3GyNxPIz+A3XAVckmfzkJwAAAABJRU5ErkJggg=="/>
+</svg>

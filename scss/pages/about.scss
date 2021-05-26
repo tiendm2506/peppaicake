@@ -1,0 +1,91 @@
+#about-page{
+  #about-us{
+    padding: 70px 0;
+    .img{
+      background-image: url("../images/bg-img-about.png");
+      background-size: 100% 100%;
+      padding: 15px 55px 55px 0;
+      img{
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        border: 10px solid #ffffff;
+        box-shadow: 2px 3px 19px 3px rgba(53, 53, 53, 0.5);
+      }
+    }
+    .content{
+      h2{
+        text-align: left;
+      }
+      h4{
+        text-transform: uppercase;
+        font-size: 11px;
+        margin: -25px 0 10px;
+      }
+      h6{
+        color: #5e5a54;
+        font-style: italic;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .signature{
+        margin-top: 20px;
+        img{
+          margin-right: 10px;
+        }
+        span{
+          font-size: 25px;
+          font-family: 'PlayfairDisplay',sans-serif;
+          font-weight: 900;
+          color: #c8aa7b;
+        }
+      }
+    }
+  }
+  #why-choose-us{
+    background: #fffcf7;
+    padding: 70px 0;
+    ul{
+      li{
+        position: relative;
+        padding-left: 90px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #c7aa7b;
+        &:last-child{
+          border-bottom: none;
+        }
+        .icon{
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          background: #c8aa7b;
+          position: absolute;
+          left: 0;
+          top: 0;
+          i{
+            font-size: 30px;
+            color: #ffffff;
+          }
+        }
+        .name{
+          font-family: 'PlayfairDisplay',sans-serif;
+          font-weight: 900;
+          color: #242424;
+          font-size: 25px;
+        }
+        .des{}
+      }
+    }
+    .img{
+      img{
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+  }
+
+}

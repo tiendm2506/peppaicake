@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peppai Cake</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -11,8 +12,8 @@
 </head>
 <body>
     <header id="header">
-        <div class="container">
-            <div class="info-social">
+        <div class="container-fluid">
+            <div class="info-social d-none d-sm-flex">
                 <div class="info">
                     <ul>
                         <li>
@@ -34,7 +35,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="logo-menu">
+            <div class="logo-menu d-none d-sm-flex">
                 <div class="logo">
                     <a href="/"><img src="images/logo.svg" alt=""></a>
                 </div>
@@ -46,23 +47,301 @@
                         <li><a href="#">Tin Tức</a></li>
                         <li><a href="#">Liên Hệ</a></li>
                     </ul>
-                    <div class="search">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                    </div>
                     <a class="cart">
                         <i class="fa fa-shopping-basket" aria-hidden="true"></i>
                         <span>3</span>
                     </a>
                 </div>
             </div>
+            <!--Menu mobile-->
+            <div class="logo-menu d-sm-none">
+                <div class="control__menu">
+                    <span class="line line--first"></span>
+                    <span class="line line--second"></span>
+                    <span class="line line--third"></span>
+                </div>
+                <div class="logo">
+                    <a href="/"><img src="images/logo.svg" alt=""></a>
+                </div>
+                <a class="cart">
+                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                    <span>3</span>
+                </a>
+                <div class="menu-mobile">
+                    <ul>
+                        <li><a href="#">Trang Chủ</a></li>
+                        <li><a href="#">Về Chúng Tôi</a></li>
+                        <li><a href="#">Sản Phẩm</a></li>
+                        <li><a href="#">Tin Tức</a></li>
+                        <li><a href="#">Liên Hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--End Menu mobile-->
         </div>
     </header>
     <main id="homepage">
         <section id="banner">
 
         </section>
-        <section></section>
+        <section id="why-choose-us">
+            <div class="container">
+                <h2>Why choose us</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="content">
+                            <div class="icon"><i class="fa fa-check-square-o" aria-hidden="true"></i></div>
+                            <div class="name">Nguyên liệu an toàn</div>
+                            <div class="des">Omnis iste natus error sit</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="content">
+                            <div class="icon"><i class="fa fa-hand-spock-o" aria-hidden="true"></i></div>
+                            <div class="name">100% homemade</div>
+                            <div class="des">Omnis iste natus error sit</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="content">
+                            <div class="icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+                            <div class="name">Giá cả hợp lý</div>
+                            <div class="des">Omnis iste natus error sit</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="content">
+                            <div class="icon"><i class="fa fa-cubes" aria-hidden="true"></i></div>
+                            <div class="name">Đa dạng mẫu mã</div>
+                            <div class="des">Omnis iste natus error sit</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="products">
+            <div class="container">
+                <h2>Sản phẩm của chúng tôi</h2>
+                <div class="list-categories">
+                    <ul>
+                        <li class="active">Cake</li>
+                        <li>Bread</li>
+                        <li>Birthday Cake</li>
+                        <li>Wedding Cake</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="wrapper-product">
+                            <div class="img">
+                                <img class="img-fluid" src="images/product-01.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="name">Bread stick</div>
+                                <div class="price">$ 7.00</div>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="wrapper-product">
+                            <div class="img">
+                                <img class="img-fluid" src="images/product-01.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="name">Bread stick</div>
+                                <div class="price">$ 7.00</div>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="wrapper-product">
+                            <div class="img">
+                                <img class="img-fluid" src="images/product-01.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="name">Bread stick</div>
+                                <div class="price">$ 7.00</div>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="wrapper-product">
+                            <div class="img">
+                                <img class="img-fluid" src="images/product-01.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="name">Bread stick</div>
+                                <div class="price">$ 7.00</div>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="see-more-btn">Xem thêm <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <div class="container">
+                <h2>Phản hồi từ khách hàng</h2>
+                <div class="row slider">
+                    <div class="col-lg-4 item">
+                        <div class="content">
+                            <img class="img-fluid quote-icon" src="images/quote.png" alt="">
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat duis aute irure.</p>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h3>Jason Williamson</h3>
+                            <h6>Founder at ThemeMu</h6>
+                            <img class="img-fluid avatar" src="images/avatar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 item">
+                        <div class="content">
+                            <img class="img-fluid quote-icon" src="images/quote.png" alt="">
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat duis aute irure.</p>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h3>Jason Williamson</h3>
+                            <h6>Founder at ThemeMu</h6>
+                            <img class="img-fluid avatar" src="images/avatar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 item">
+                        <div class="content">
+                            <img class="img-fluid quote-icon" src="images/quote.png" alt="">
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat duis aute irure.</p>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <h3>Jason Williamson</h3>
+                            <h6>Founder at ThemeMu</h6>
+                            <img class="img-fluid avatar" src="images/avatar.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog">
+            <div class="container">
+                <h2>From our blog</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="post-item">
+                            <div class="thumb-post">
+                                <img class="img-fluid" src="images/product-01.jpg" alt="">
+                                <div class="time">Aug 18, 2021</div>
+                            </div>
+                            <h3>How to make cake: 9 steps (with pictures)</h3>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis [...]</p>
+                            <a href="#" class="see-more-btn">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="post-item">
+                            <div class="thumb-post">
+                                <img class="img-fluid" src="images/product-01.jpg" alt="">
+                                <div class="time">Aug 18, 2021</div>
+                            </div>
+                            <h3>How to make cake: 9 steps (with pictures)</h3>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis [...]</p>
+                            <a href="#" class="see-more-btn">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="post-item">
+                            <div class="thumb-post">
+                                <img class="img-fluid" src="images/product-01.jpg" alt="">
+                                <div class="time">Aug 18, 2021</div>
+                            </div>
+                            <h3>How to make cake: 9 steps (with pictures)</h3>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis [...]</p>
+                            <a href="#" class="see-more-btn">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer id="footer"></footer>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="content home-col">
+                        <a href="/"><img src="images/logo-white.svg" alt=""></a>
+                        <p>ThemeMu comes with powerful theme options, which empowers you to quickly and easily build incredible store.</p>
+                        <ul>
+                            <li><a href="#" target="_blank"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a></li>
+                            <li><a href="#" target="_blank"><span><i class="fa fa-google-plus" aria-hidden="true"></i></span></a></li>
+                            <li><a href="#" target="_blank"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a></li>
+                            <li><a href="#" target="_blank"><span><i class="fa fa-youtube" aria-hidden="true"></i></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="content contact">
+                        <h3>Liên hệ</h3>
+                        <ul>
+                            <li>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>Địa chỉ:</span> 13 Cô Giang, Phường 1, Phú Nhuận, TP.HCM
+                            </li>
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>Điện thoại:</span> 0909.111.223
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <span>Email:</span> contact@peppaicake.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="content recent-post">
+                        <h3>Bài đăng gần đây</h3>
+                        <ul>
+                            <li>
+                                <img class="img-fluid" src="images/cake-post.jpg" alt="">
+                                <h4>Etiam accumsan consequat libero et tincidunt</h4>
+                                <h6>Aug 18, 2021</h6>
+                                <a href="#"></a>
+                            </li>
+                            <li>
+                                <img class="img-fluid" src="images/cake-post.jpg" alt="">
+                                <h4>Etiam accumsan consequat libero et tincidunt</h4>
+                                <h6>Aug 18, 2021</h6>
+                                <a href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2021 Peppai Cake - Designed by Henry</p>
+        </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
