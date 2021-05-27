@@ -4,6 +4,7 @@ ActionJS = {
     ActionJS.showMenuMobile()
     ActionJS.scrollFixedMenu()
     ActionJS.controlStyleShowing()
+    ActionJS.clickChangeImageProduct()
   },
   sliderTestimonials: function () {
     if (window.matchMedia('(max-width: 991px)').matches){
@@ -55,6 +56,14 @@ ActionJS = {
       $(this).addClass('active')
       $('.showing .list').removeClass('active')
     })
-  }
+  },
+  clickChangeImageProduct: function(){
+    $('#product-details-page #product-general .img-product .gallery img').on('click', function(){
+      $('#product-details-page #product-general .img-product .gallery img').removeClass('active')
+      $(this).addClass('active')
+      var src = $(this).attr('src');
+      $('#product-details-page #product-general .img-product .img img').attr('src',src);
+    });
+  },
 }
 ActionJS.Init()
