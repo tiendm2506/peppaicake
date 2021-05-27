@@ -1,0 +1,30 @@
+#not-found-page{
+  h1{
+    font-weight: 900;
+    font-family: 'PlayfairDisplay',sans-serif;
+    font-size: 180px;
+    color: #c8aa7b;
+    @media(max-width: 767px){
+      font-size: 100px;
+    }
+  }
+  h2{
+    font-size: 52px;
+    @media(max-width: 767px){
+      font-size: 30px;
+    }
+  }
+  h4{
+    a{
+      color: #c8aa7b;
+      //font-weight: 700;
+    }
+  }
+  img{
+    width: 550px;
+    margin: 40px 0 70px;
+    @media(max-width: 767px){
+      width: 100%;
+    }
+  }
+}

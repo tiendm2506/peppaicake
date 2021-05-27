@@ -58,46 +58,6 @@
     @media(max-width: 991px){
       padding-top: 0;
     }
-    .list-categories{
-      margin-bottom: 30px;
-      ul{
-        display: flex;
-        justify-content: center;
-        @media(max-width: 767px){
-          justify-content: space-between;
-          flex-wrap: wrap;
-        }
-        li{
-          text-transform: capitalize;
-          font-size: 25px;
-          font-family: 'PlayfairDisplay',sans-serif;
-          font-weight: 900;
-          position: relative;
-          margin: 0 15px;
-          cursor: pointer;
-          @media(max-width: 1199px){
-            font-size: 20px;
-          }
-          @media(max-width: 767px){
-            width: 50%;
-            margin: 0;
-            text-align: center;
-          }
-          &:last-child{
-            &:after{
-              display: none;
-            }
-          }
-          &:after{
-            content: '/';
-            margin-left: 30px;
-          }
-          &.active{
-            color: #c8aa7b;
-          }
-        }
-      }
-    }
   }
   #testimonials{
     padding: 70px 0;

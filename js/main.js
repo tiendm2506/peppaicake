@@ -3,6 +3,7 @@ ActionJS = {
     ActionJS.sliderTestimonials()
     ActionJS.showMenuMobile()
     ActionJS.scrollFixedMenu()
+    ActionJS.controlStyleShowing()
   },
   sliderTestimonials: function () {
     if (window.matchMedia('(max-width: 991px)').matches){
@@ -41,6 +42,18 @@ ActionJS = {
       }else {
         $('#header').removeClass('scrolled')
       }
+    })
+  },
+  controlStyleShowing: function (){
+    $('.showing .list').on('click', function (){
+      $('#products').addClass('list-style')
+      $(this).addClass('active')
+      $('.showing .grid').removeClass('active')
+    })
+    $('.showing .grid').on('click', function (){
+      $('#products').removeClass('list-style')
+      $(this).addClass('active')
+      $('.showing .list').removeClass('active')
     })
   }
 }

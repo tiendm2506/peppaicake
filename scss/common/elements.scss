@@ -28,6 +28,27 @@ h2{
   }
   i{}
 }
+.add-to-cart-btn{
+  background: #c8aa7b;
+  color: #ffffff;
+  padding: 10px 8px 10px 40px;
+  border-radius: 5px;
+  font-size: 13px;
+  position: relative;
+  z-index: 3;
+  border: none;
+  img{
+    width: 25px;
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &:hover{
+    background: #5d3d0b;
+    color: #ffffff;
+  }
+}
 p{
   margin-bottom: 10px;
 }
