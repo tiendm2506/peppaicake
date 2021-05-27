@@ -903,11 +903,26 @@ body.is-show-menu {
     text-align: left;
     margin-bottom: 20px;
     padding-bottom: 0; }
+    @media (max-width: 767px) {
+      #product-page #products.list-style .wrapper-product {
+        padding-bottom: 10px; } }
     #product-page #products.list-style .wrapper-product .img {
       width: 400px; }
+      @media (max-width: 767px) {
+        #product-page #products.list-style .wrapper-product .img {
+          width: 100%; } }
     #product-page #products.list-style .wrapper-product .content {
       width: calc(100% - 400px);
       padding: 0 40px 0 60px; }
+      @media (max-width: 991px) {
+        #product-page #products.list-style .wrapper-product .content {
+          padding: 0 10px 0; } }
+      @media (max-width: 767px) {
+        #product-page #products.list-style .wrapper-product .content {
+          width: 100%; } }
+      @media (max-width: 767px) {
+        #product-page #products.list-style .wrapper-product .content .info {
+          padding-top: 0; } }
       #product-page #products.list-style .wrapper-product .content .info .description {
         display: block; }
   #product-page #products .search-showing {

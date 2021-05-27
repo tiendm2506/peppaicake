@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ae6ae5-fc47-4e7a-8050-341b0007c091" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/icon-add-to-cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img-404.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/404.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/cart.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/common/elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/common/elements.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/common/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/common/section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/homepage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/pages/product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/product.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
