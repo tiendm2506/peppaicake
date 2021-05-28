@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ae6ae5-fc47-4e7a-8050-341b0007c091" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/layouts/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/common/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/common/section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/blog-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/blog-details.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/about.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +180,7 @@
       <workItem from="1620876675696" duration="1845000" />
       <workItem from="1621935373983" duration="2200000" />
       <workItem from="1621948806765" duration="5054000" />
-      <workItem from="1622153543598" duration="7199000" />
+      <workItem from="1622153543598" duration="8635000" />
     </task>
     <servers />
   </component>

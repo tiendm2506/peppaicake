@@ -854,16 +854,31 @@ body.is-show-menu {
 
 #about-page #about-us {
   padding: 70px 0; }
+  @media (max-width: 991px) {
+    #about-page #about-us {
+      padding: 40px 0; } }
+  @media (max-width: 767px) {
+    #about-page #about-us {
+      padding-bottom: 60px; } }
   #about-page #about-us .img {
     background-image: url("../images/bg-img-about.png");
     background-size: 100% 100%;
     padding: 15px 55px 55px 0; }
+    @media (max-width: 991px) {
+      #about-page #about-us .img {
+        margin-bottom: 40px; } }
+    @media (max-width: 767px) {
+      #about-page #about-us .img {
+        padding: 0; } }
     #about-page #about-us .img img {
       width: 500px;
       height: 500px;
       object-fit: cover;
       border: 10px solid #ffffff;
       box-shadow: 2px 3px 19px 3px rgba(53, 53, 53, 0.5); }
+      @media (max-width: 767px) {
+        #about-page #about-us .img img {
+          height: auto; } }
   #about-page #about-us .content h2 {
     text-align: left; }
   #about-page #about-us .content h4 {
@@ -879,22 +894,37 @@ body.is-show-menu {
     margin-top: 20px; }
     #about-page #about-us .content .signature img {
       margin-right: 10px; }
+      @media (max-width: 767px) {
+        #about-page #about-us .content .signature img {
+          display: block; } }
     #about-page #about-us .content .signature span {
       font-size: 25px;
       font-family: 'PlayfairDisplay',sans-serif;
       font-weight: 900;
       color: #c8aa7b; }
+      @media (max-width: 767px) {
+        #about-page #about-us .content .signature span {
+          font-size: 20px; } }
 #about-page #why-choose-us {
   background: #fffcf7;
   padding: 70px 0; }
+  @media (max-width: 991px) {
+    #about-page #why-choose-us {
+      padding: 0; } }
   #about-page #why-choose-us ul li {
     position: relative;
     padding-left: 90px;
     padding-bottom: 30px;
     margin-bottom: 30px;
     border-bottom: 1px solid #c7aa7b; }
+    @media (max-width: 767px) {
+      #about-page #why-choose-us ul li {
+        padding-bottom: 50px; } }
     #about-page #why-choose-us ul li:last-child {
       border-bottom: none; }
+      @media (max-width: 767px) {
+        #about-page #why-choose-us ul li:last-child {
+          border-bottom: 1px solid #c7aa7b; } }
     #about-page #why-choose-us ul li .icon {
       display: inline-flex;
       justify-content: center;
@@ -914,6 +944,9 @@ body.is-show-menu {
       font-weight: 900;
       color: #242424;
       font-size: 25px; }
+      @media (max-width: 767px) {
+        #about-page #why-choose-us ul li .name {
+          font-size: 20px; } }
   #about-page #why-choose-us .img img {
     object-fit: cover;
     border-radius: 50%; }
