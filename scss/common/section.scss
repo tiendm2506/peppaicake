@@ -133,6 +133,9 @@
     font-weight: 900;
     color: #ffffff;
     text-transform: capitalize;
+    @media(max-width: 991px){
+      font-size: 35px;
+    }
     @media(max-width: 767px){
       font-size: 25px;
     }
@@ -343,5 +346,34 @@
         color: #c8aa7b;
       }
     }
+  }
+}
+.form{
+  input, textarea{
+    border: 1px solid #b5b2ac;
+  }
+  .input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    input{
+      width: calc(33.33% - 10px);
+      @media(max-width: 991px){
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+  textarea{
+    width: 100%;
+    min-height: 140px;
+  }
+  .see-more-btn{
+    border: none;
+    margin-top: 15px;
   }
 }
