@@ -77,6 +77,11 @@
         display: flex;
         li{
           margin-left: 60px;
+          &.active{
+            a{
+              color: #c8aa7b;
+            }
+          }
           @media(max-width: 991px){
             margin-left: 25px;
           }
@@ -163,6 +168,11 @@
     ul{
       li{
         border-bottom: 1px solid #ffffff;
+        &.active{
+          a{
+            background: #5d3d0b;
+          }
+        }
         &:last-child{
           border-bottom: none;
         }
