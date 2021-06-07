@@ -769,31 +769,54 @@ body.is-show-menu {
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 4;
-    text-align: center; }
+    text-align: center;
+    width: 100%; }
     #homepage #banner .content .logo-banner {
       width: 150px; }
     #homepage #banner .content h1 {
       font-family: 'PlayfairDisplay',sans-serif;
       font-weight: 900;
       font-size: 60px; }
+      @media (max-width: 991px) {
+        #homepage #banner .content h1 {
+          font-size: 50px; } }
+      @media (max-width: 767px) {
+        #homepage #banner .content h1 {
+          font-size: 35px;
+          margin: 20px 0; } }
     #homepage #banner .content h4 {
       text-transform: uppercase;
       font-weight: 700;
-      letter-spacing: 2px;
-      margin: 25px 0 -30px; }
+      letter-spacing: 2px; }
+      @media (max-width: 767px) {
+        #homepage #banner .content h4 img {
+          width: 75px; } }
     #homepage #banner .content .wrapper {
-      position: relative; }
+      position: relative;
+      margin-top: -90px; }
+      @media (max-width: 1440px) {
+        #homepage #banner .content .wrapper {
+          margin-top: -75px; } }
+      @media (max-width: 767px) {
+        #homepage #banner .content .wrapper {
+          margin-top: -15px; } }
       #homepage #banner .content .wrapper img {
-        width: 700px; }
-      #homepage #banner .content .wrapper span {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        color: #242424;
-        top: 44%;
+        width: 900px; }
+      #homepage #banner .content .wrapper .shop-btn {
+        display: inline-block;
         font-weight: 700;
         text-transform: uppercase;
-        font-size: 30px; }
+        font-size: 30px;
+        background: #b88f63;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer; }
+        @media (max-width: 991px) {
+          #homepage #banner .content .wrapper .shop-btn {
+            font-size: 25px; } }
+        @media (max-width: 767px) {
+          #homepage #banner .content .wrapper .shop-btn {
+            font-size: 16px; } }
 #homepage #blog {
   padding: 70px 0; }
   @media (max-width: 991px) {

@@ -25,6 +25,7 @@
       transform: translate(-50%, -50%);
       z-index: 4;
       text-align: center;
+      width: 100%;
       .logo-banner{
         width: 150px;
       }
@@ -32,27 +33,51 @@
         font-family: 'PlayfairDisplay',sans-serif;
         font-weight: 900;
         font-size: 60px;
+        @media(max-width: 991px){
+          font-size: 50px;
+        }
+        @media(max-width: 767px){
+          font-size: 35px;
+          margin: 20px 0;
+        }
       }
       h4{
         text-transform: uppercase;
         font-weight: 700;
         letter-spacing: 2px;
-        margin: 25px 0 -30px;
+        img{
+          @media(max-width: 767px){
+            width: 75px;
+          }
+        }
       }
       .wrapper{
         position: relative;
-        img{
-          width: 700px;
+        margin-top: -90px;
+        @media(max-width: 1440px){
+          margin-top: -75px;
         }
-        span{
-          position: absolute;
-          left: 50%;
-          transform: translateX(-50%);
-          color: #242424;
-          top: 44%;
+        @media(max-width: 767px){
+          margin-top: -15px;
+        }
+        img{
+          width: 900px;
+        }
+        .shop-btn{
+          display: inline-block;
           font-weight: 700;
           text-transform: uppercase;
           font-size: 30px;
+          background: #b88f63;
+          padding: 10px 20px;
+          border-radius: 10px;
+          cursor: pointer;
+          @media(max-width: 991px){
+            font-size: 25px;
+          }
+          @media(max-width: 767px){
+            font-size: 16px;
+          }
         }
       }
     }
