@@ -6,23 +6,6 @@ ActionJS = {
     ActionJS.controlStyleShowing()
     ActionJS.clickChangeImageProduct()
   },
-  cartEffection: function(){
-    $('.add-to-cart-btn').on('click',function(){
-      var button = $(this);
-      var cart = $('#header .logo-menu .cart');
-      var cartTotal = cart.attr('data-totalitems');
-      var newCartTotal = parseInt(cartTotal) + 1;
-
-      button.addClass('sendtocart');
-      setTimeout(function(){
-        button.removeClass('sendtocart');
-        cart.addClass('shake').attr('data-totalitems', newCartTotal);
-        setTimeout(function(){
-          cart.removeClass('shake');
-        },500)
-      },1000)
-    })
-  },
   sliderTestimonials: function () {
     if (window.matchMedia('(max-width: 991px)').matches){
       $('#testimonials .slider').slick({
